@@ -1,11 +1,12 @@
 # **Nextion Switch**
+![NextionSwitchFront](https://github.com/nollstead/Nextion-Switch/assets/13612518/67bfbe3a-3694-4c33-a39e-566559366220)
 
-![image](https://github.com/nollstead/Nextion-Switch/assets/13612518/09dcb2a3-c24a-4514-bb4d-f77e4479c661)
 
 ## Description
 A drawback of the Nextion displays is that they only include a single communication port, which is used for both communicating with your microcontroller and uploading new Nextion code using the Nextion Editor.  This means repeatedly swapping the wires between your microcontroller and the Nextion, uploading, swapping back to test - which can be frustrating when in development mode.  Additionally it requires a separate USB-to-Serial adapter - which just adds to the mess of connections to manage.
 
-This handy device solves both of those problems.  Wire this in-line with both your Nextion and your microcontroller and it'll automatically switch those wires for you - no need to constantly remove wires, 
+This handy device solves both of those problems.  Wire this in-line with both your Nextion and your microcontroller and it'll automatically switch those wires for you - no need to constantly remove wires.
+
 
 ## Features
 
@@ -33,17 +34,18 @@ Connect to your controller using the RX, TX and GND pins.
 
 ### Nextion Connection
 
-Connect a 4-wire 2.54mm Female-to-Female JST-XH wire from the Nextion port on the switch to your Nextion.  Note that switch is designed to use "straight-through" cables, so if making your own cables you should not swap the TX and RX wires - this is done internally.  The switch has 5V and GND marked help ensure that the wires are connected correctly, just make sure they line up with the corresponding port ont the Nextion.
+Connect a 4-wire 2.54mm Female-to-Female JST-XH wire from the Nextion port on the switch to your Nextion.  
+
+Note that switch is designed to use "straight-through" cables, so if making your own cables you should not swap the TX and RX wires - this is done internally.  The switch has 5V and GND marked to help ensure that the wires are connected correctly, just make sure they line up with the corresponding port ont the Nextion.  Below is an example of what a suitable cable would look like:
+
+![cable](https://github.com/nollstead/Nextion-Switch/assets/13612518/bd77e64a-0e30-43fb-a066-03e7465f0772)
 
 ## Operation
 
-In normal operation the PC, Power, MCU and 
+In normal operation the Power, MCU and Nextion connections are in place and your microcontroller will communicate with your Nextion through the switch.  Connecting a USB cable will switch the communication to be between your PC and the Nextion - allowing you to upload to your nextion.  Then, simply disconnect the USB (from either your computer or the switch) and communication will switch back to the MCU/Nextion.  
 
 ## How to Get one
 
 While this is not currently a commercial product, I'm happy to manufacture these in small quantities for the maker community upon request.  The cost of the switch is $35 + +5 shipping (to US), which primarily goes towards manufacturing costs, payable via either PayPal or Venmo.  If you're interested in one email me at nollstead@gmail.com
-
-## Disclaimer
-
 
 
