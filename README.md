@@ -2,10 +2,9 @@
 ![NextionSwitchFront](https://github.com/nollstead/Nextion-Switch/assets/13612518/67bfbe3a-3694-4c33-a39e-566559366220)
 
 
-## Description
 A drawback of the Nextion displays is that they only include a single communication port, which is used for both communicating with your microcontroller and uploading new Nextion code using the Nextion Editor.  This means repeatedly swapping the wires between your microcontroller and the Nextion, uploading, swapping back to test - which can be frustrating when in development mode.  Additionally it requires a separate USB-to-Serial adapter - which just adds to the mess of connections to manage.
 
-This handy device solves both of those problems.  Wire this in-line with both your Nextion and your microcontroller and it'll automatically switch those wires for you - no need to constantly remove wires.
+This handy device solves both of those problems.  Wire this in-line with your Nextion, your PC, your microcontroller and separate power source and it'll automatically switch those wires for you - no need to constantly remove wires.
 
 
 ## Features
@@ -14,12 +13,15 @@ This handy device solves both of those problems.  Wire this in-line with both yo
 - Embedded FTDI USB-to-Serial converter, so no external converter required
 - Reverse voltage protection for power pins protects board against accidential reverse wiring of power pins
 - 4-wire JST-XH connector for connectng to your Nextion display.  This connector will provide power as well as Tx/Rx signals for both Nextion editor and MCU communication
+- RoHS Compliant parts and manufacturing processes
+
 
 ## Setup
 
 ### PC USB
 
 The switch includes an on-board FTDI USB-to-Serial connector and requires a virtual COM port driver.  Download and install the VCP driver for your operating system from https://ftdichip.com/drivers/vcp-drivers/.  Once installed and plugged in via the USB port the switch will appear as a virtual COM port, just like any other FTDI adapter.
+
 
 ### Power
 
@@ -46,6 +48,10 @@ In normal operation the Power, MCU and Nextion connections are in place and your
 
 ## How to Get one
 
-While this is not currently a commercial product, I'm happy to manufacture these in small quantities for the maker community upon request.  The cost of the switch is $35 + +5 shipping (to US), which primarily goes towards manufacturing costs, payable via either PayPal or Venmo.  If you're interested in one email me at nollstead@gmail.com
+Included in the repository are the Gerber, BOM and PickandPlace files required to manufacture this board at your favorite PC manufacturer.  
+
+I periodically manufacture these in small quantities for those 
+
+If you're not familiar or comfortable with PCB manufacturing I'm happy to I'm happy to manufacture these in small quantities for the maker community upon request.  The cost of the switch is $35 + +5 shipping (to US), which primarily goes towards manufacturing costs, payable via either PayPal or Venmo.  If you're interested in one email me at nollstead@gmail.com
 
 
