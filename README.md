@@ -48,10 +48,8 @@ In normal operation the Power, MCU and Nextion connections are in place and your
 
 ## How to Get one
 
-Included in the repository are the Gerber, BOM and PickandPlace files required to manufacture this board at your favorite PC manufacturer.  
+Included in the repository are the Gerber, BOM and PickandPlace files required to manufacture this board at your preferred PC manufacturer.  
 
-I periodically manufacture these in small quantities for those 
-
-If you're not familiar or comfortable with PCB manufacturing I'm happy to I'm happy to manufacture these in small quantities for the maker community upon request.  The cost of the switch is $35 + +5 shipping (to US), which primarily goes towards manufacturing costs, payable via either PayPal or Venmo.  If you're interested in one email me at nollstead@gmail.com
+If you're not familiar or comfortable with PCB manufacturing I'm happy to manufacture these in small quantities for the maker community upon request.  The cost of the switch is $35 + +5 shipping (to US), which primarily goes towards manufacturing costs, payable via either PayPal or Venmo.  If you're interested in one email me at nollstead@gmail.com
 
 
